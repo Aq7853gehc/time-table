@@ -6,16 +6,15 @@
 
 .header {
   display: flex;
-  background-color: black;
   justify-content: space-evenly;
   align-items: center;
   font-family: Arial, sans-serif;
-  height: 40px;
-  color: white;
-
+  height: 60px;
+  color: #3c0075;
+  font-size: large;
   a {
     text-decoration: none;
-    color: white;
+    color: #3c0075;
     transition: all 0.4s;
 
     &:hover {
