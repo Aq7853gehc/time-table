@@ -7,6 +7,8 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  max-width: 1500px;
+  margin: auto;
 
   .text-container {
     height: 100%;
@@ -26,30 +28,26 @@
         color: #400077;
       }
     }
-
-    button {
-    }
   }
 
   .img-container {
-    max-width: 50%;
+    max-width: 40%;
     display: flex;
     // border: 2px solid white;
     height: 100%;
     width: 60%;
     align-items: center;
     .img1 {
-      position: absolute;
-      bottom: 20px;
-      right: 18%;
+      position: relative;
+      bottom: 10%;
       filter: drop-shadow(2px 2px 5px black);
+      opacity: 0.5;
       z-index: 10;
       animation: anime 2s infinite alternate;
     }
     .img2 {
-      position: absolute;
-      top: 20%;
-      left: 30%;
+      position: relative;
+      left: -100%;
       width: 100%;
       height: 50%;
       filter: blur(1px);

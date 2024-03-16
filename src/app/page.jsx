@@ -5,7 +5,7 @@ const page = () => {
     <main className="container">
       <div className="text-container">
         <h3>
-          <span>Time</span> management
+          <span>Time</span> <br /> management
         </h3>
 
         <div className="btn-wrapper">
